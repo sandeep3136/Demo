@@ -1,0 +1,32 @@
+.divi {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.attr {
+    width: 100%
+
+}
+
+Textarea {
+    width: 100%
+
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 50px;
+    background-color: brown;
+}
+
+h2 {
+    padding-top: 6px;
+}
+
+.publish {
+    margin-top: 5%;
+    margin-left: 50%;
+}

@@ -1,0 +1,20 @@
+.post-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(179, 255, 240);
+    width: 800px;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 2%;
+    border-radius: 1%
+
+}
+.img {
+    width: 700px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}	
+
+

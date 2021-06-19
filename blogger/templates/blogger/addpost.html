@@ -1,0 +1,36 @@
+{% extends "blogger/layout.html" %}
+{% load static %}
+
+{% block body  %}
+
+    
+	<div class="header">
+        <h2> Add Posts </h2>
+    </div>
+
+
+    <form action="{% url 'add' %}" method="POST">
+        {% csrf_token %}
+        <!-- <div class="divi">
+            <h4>Post Title: </h4> <input type="text" class="attr">
+        </div>
+        <div class="divi">
+            <h4>Post Author:</h4> <input type="text" class="attr">
+        </div>
+        <div class="divi">
+        	<h4>Post Image:</h4> <input type="file" name="img" accept="image/*">
+        </div>
+        <div class="divi">
+            <h4>Post Content:</h4> <Textarea></Textarea>
+        </div> -->
+
+        {{form}}
+
+    <input type="Submit" value="Publish" class="publish">
+    
+
+    
+
+</form>
+
+{% endblock %}

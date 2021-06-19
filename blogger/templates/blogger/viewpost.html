@@ -1,0 +1,14 @@
+{% extends "blogger/layout.html" %}
+{% load static %}
+
+{% block body  %}
+
+	
+
+    <div class="post-block">
+		<img src="{% static 'blogger/images/image1.jpg' %}" class="img">
+		<a href="{% url 'visitpost' %}"><h3>Computer Science most fascinating technologies</h3></a>
+	</div>
+
+
+{% endblock %}
